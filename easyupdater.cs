@@ -136,7 +136,7 @@ namespace SOAUpdater
 
                 logger.AppendLine($"Update successful! Update time elapsed: {swatch.ElapsedMilliseconds/1000} c.");
 
-                // Отправляем отчет об обновлении на почту.
+                // Send email about successful update.
                 SendEmail($"Update successful!.\r\n\r\n{logger}");
             }
             catch (Exception ex)
