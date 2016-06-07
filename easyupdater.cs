@@ -7,8 +7,6 @@ using System.IO.Compression;
 using System.Net.Mail;
 using System.Reflection;
 using System.Threading;
-using System.Timers;
-using Timer = System.Timers.Timer;
 
 namespace SOAUpdater
 {
