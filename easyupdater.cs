@@ -8,7 +8,7 @@ using System.Net.Mail;
 using System.Reflection;
 using System.Threading;
 
-namespace SOAUpdater
+namespace Easyupdater
 {
     class Program
     {
